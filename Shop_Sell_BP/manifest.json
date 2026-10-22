@@ -1,0 +1,38 @@
+{
+  "format_version": 2,
+  "metadata": {
+    "authors": ["SomMondal123"],
+    "url": "https://youtube.com/@classy_4_u?si=C1E9J4-uWfBk4_YV"
+  },
+  "header": {
+    "name": "§6Shop §a& §eSell §bSystem §7[§bBP§7]",
+    "description": "Chest-UI shop and sell system with a built-in economy.\n\n§eBy: SomMondal123 - YouTube: @classy_4_u",
+    "uuid": "52cad189-2ff3-4f9e-b9fa-ad9a89db11c4",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 120]
+  },
+  "modules": [
+    {
+      "description": "Shop & Sell System scripts",
+      "uuid": "95ec7176-16ad-4870-ae9e-5a832724226b",
+      "version": "1.0.0",
+      "type": "script",
+      "language": "javascript",
+      "entry": "scripts/index.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "bc5fc5d8-4ade-4ad0-a673-cc73487d062f",
+      "version": [1, 0, 0]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "beta"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "beta"
+    }
+  ]
+}
